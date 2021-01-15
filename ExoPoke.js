@@ -1,3 +1,12 @@
+window.addEventListener('load', function(){
+    if (localStorage.getItem("Pv")!=false){
+        console.log(localStorage.getItem('Pv'))
+        var pvActuel = localStorage.getItem('Pv')
+        var pv1 = pvActuel
+        document.getElementById("Hp1").style.width = pv1 + "%"
+    }
+})
+
 var hymne = document.getElementById("atkV1")
 var tank = document.getElementById("atkV2")
 var manchette = document.getElementById("atkV3")
@@ -89,14 +98,14 @@ var Jcena = {
     Est_il_KO : false,
     Type: "Catcheur",
 }
-                                    
+
 function ilattaque(i,character,healthbar,character2){
-    character.pvActuel = Math.max(character.pvActuel - character2.Attaque[i].puissance,0)
+    character.pvActuel = character.pvActuel - character2.Attaque[i].puissance
     if (character.pvActuel == 0)
         healthbar.style.display = "none"
-    var pv1 = character.pvActuel / 200 * 100
-    healthbar.style.width = pv1 + "%"
-    
+    var pv1 = character.pvActuel / character.pvMax * 100
+    console.log(pv1)
+    healthbar.style.width = pv1 + "%" 
 }
 ucsm.addEventListener('click', function(){
     console.log('click')
