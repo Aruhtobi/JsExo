@@ -1,0 +1,80 @@
+{
+    "nom": "Poutine",
+    "niveau": 68,
+    "nombre_de_pv_max": 200,
+    "nombre_de_pv_actuel": 200,
+    "Attaque": [
+        {
+        "nom": "Hymne_Urss",
+        "puissance": 40,
+        "type": "normal",
+        "PP_Max": 05,
+        "PP_Min": 05,
+        },
+        {
+          "nom": "Tank",
+            "puissance": 60,
+            "type": "sol",
+            "PP_Max": 02,
+            "PP_Min": 02,
+        },
+        {
+        "nom": "Manchette",
+            "puissance": 50,
+            "type": "Combat",
+            "PP_Max": 20,
+            "PP_Min": 20,
+        },
+        {
+            "nom": "Coup_de_pied",
+            "puissance": 20,
+            "type": "Combat",
+            "PP_Max": 20,
+            "PP_Min": 20,
+        }
+    ],
+    "Status": "none",
+    "Nom_du_dresseur_qui_l'as_attraper": "Dieu",
+    "Est_il_KO" : false,
+    "Type": "Président",
+}
+{
+    "nom": "John_Cena",
+    "niveau": 43,
+    "nombre_de_pv_max": 200,
+    "nombre_de_pv_actuel": 200,
+    "Attaque": [
+        {
+        "nom": "U_cant_see_me",
+        "puissance": 60,
+        "type": "normal",
+        "PP_Max": 05,
+        "PP_Min": 05,
+        },
+        {
+          "nom": "RKO",
+            "puissance": 80,
+            "type": "Combat",
+            "PP_Max": 02,
+            "PP_Min": 02,
+        },
+        {
+        "nom": "Flying_Shoulder_Block",
+            "puissance": 50,
+            "type": "Combat",
+            "PP_Max": 10,
+            "PP_Min": 10,
+        },
+        {
+            "nom": "Chaise",
+            "puissance": 30,
+            "type": "Combat",
+            "PP_Max": 20,
+            "PP_Min": 20,
+        }
+    ],
+    "Status": "none",
+    "Nom_du_dresseur_qui_l'as_attraper": "WWE",
+    "Est_il_KO" : false,
+    "Type": "Catcheur",
+}
